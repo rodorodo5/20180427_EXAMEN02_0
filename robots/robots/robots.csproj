@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Tareas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Tareas\Tarea.cs" />
+    <Compile Remove="Interface_robot.cs" />
+  </ItemGroup>
+</Project>
